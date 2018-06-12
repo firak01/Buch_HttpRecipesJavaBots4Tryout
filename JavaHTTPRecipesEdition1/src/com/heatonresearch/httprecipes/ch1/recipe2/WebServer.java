@@ -110,14 +110,14 @@ public class WebServer
     // read in the first line
     System.out.println("**New Request**");
     String first = in.readLine();
-    System.out.println(first);
+    System.out.println("First Line: " + first);
 
     // read in headers and post data
     String line;
     do
     {
       line = in.readLine();
-      System.out.println(line);
+      System.out.println("Line passed: " + line);
     } while (line!=null && line.trim().length() > 0);
 
     // write the HTTP response
@@ -170,7 +170,7 @@ public class WebServer
   {
     // parse the file by /'s and build a local file
     StringTokenizer tok = new StringTokenizer(path, "/", true);
-    System.out.println(path);
+    System.out.println("Path passed as root: " + path);
     String physicalPath = addSlash(httproot);
 
     while (tok.hasMoreElements())
