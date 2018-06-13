@@ -9,6 +9,15 @@ import java.util.*;
  * 
  * Danach im Browswer die Datei angeben, die man sehen möchte. Der oben angegebene Pfad wird als Root des Webservers verwendet.
  * http://localhost:81/test.txt
+ * 
+ * ########################################
+ * Beispiel 2:
+ * 81 C:\1fgl\repo_buch_HttpRecipesJavaBots4Tryout\JavaHTTPRecipesEdition1\fileZZZ\test
+ * 
+ * Danach im Browswer die Datei angeben, die man sehen möchte. Der oben angegebene Pfad wird als Root des Webservers verwendet.
+ * http://localhost:81/index.html
+ * 
+ * 
  */
 /**
  * Recipe #1.2: Simple File Based Web Server
