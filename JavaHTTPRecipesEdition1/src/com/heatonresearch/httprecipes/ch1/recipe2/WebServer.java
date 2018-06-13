@@ -3,7 +3,13 @@ package com.heatonresearch.httprecipes.ch1.recipe2;
 import java.io.*;
 import java.net.*;
 import java.util.*;
-
+/* FGL 20180613: Wie man  das nutzt:
+ * Als Argument beim Start angeben: Portnummer und (absoluter) Pfad, den man als Root verwenden möchte, z.B.:
+ * 81 C:\1fgl\repo_buch_HTTPJavaBots\Buch_HttpRecipesJavaBots4Tryout\JavaHTTPRecipesEdition1\file02ZZZ
+ * 
+ * Danach im Browswer die Datei angeben, die man sehen möchte. Der oben angegebene Pfad wird als Root des Webservers verwendet.
+ * http://localhost:81/test.txt
+ */
 /**
  * Recipe #1.2: Simple File Based Web Server
  * Copyright 2007 by Jeff Heaton(jeff@jeffheaton.com)
