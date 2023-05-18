@@ -102,7 +102,7 @@ public class SimpleWebServer
     out.println("<html>");
     out.println("<head><title>Simple Web Server</title></head>");
     out.println("<body>");
-    out.println("<h1>Hello World</h1>");
+    out.println("<h1>Hello World by FGL</h1>");
     out.println("<//body>");
     out.println("</html>");
 
